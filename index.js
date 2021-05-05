@@ -1,6 +1,7 @@
 // Code your solution here
 function findMatching(drivers, name){
    let driverName = drivers.filter(driverName => driverName.toLowerCase() === name.toLowerCase())
+   console.log(driverName)
      return driverName
   }
   function fuzzyMatch(drivers, name){
